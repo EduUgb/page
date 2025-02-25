@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function () {
     let btn2 = document.getElementById("btn2");
     let cuadroTexto = document.getElementById("cuadroTexto");
