@@ -1,38 +1,56 @@
 .nav {
-    background-color: #333;
+    background-color: #b6ff8e;
     overflow: hidden;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
     height: 60px;
     display: flex;
+
   }
   
+  .nav h3{
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+  }
 
-  .nav a {
-    float: left;
-    display: flex;
-    color: #f2f2f2;
+  .nav p {
+    color: #000000;
+    flex-grow: 1;
+    padding-left: 2%;
     text-align: center;
-    padding: 10px;
-    text-decoration: none;
     font-size: 20px;
-    align-items: center;
+    font-weight: bold;
 
   }
   
-  .nav a.active {
-    background-color: #0452aa;
-    color: white;
-    align-items: center;
-    display: flex;
-    height: 75px;
-    padding-left: 60px;
-  }
 
   body{
     margin: 0;
   }
+  .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    overflow: hidden;
+    gap: 20px;
+
+    
+  }
   
+  .contenedor div{
+    flex: 1;
+    min-width: 0;
+    margin: 1%;
+  }
+  .contenedor div h1{
+    flex-grow: 1;
+    word-wrap: break-word;
+    white-space: normal;
+
+    overflow-wrap: break-word;
+  }
+
   .pie {
     position: fixed;
     left: 0;
@@ -47,12 +65,9 @@
     justify-content: center;
   }
 
-  .nav .div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    height: 40px; /* Cambia la altura a 200px */
-    width: auto; 
-    max-width: 100%;
+  .logo{
+    flex-grow: 0;
+    max-width: 10%;
+   margin-left: 20px;
+   text-align: left;
   }
