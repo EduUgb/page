@@ -39,9 +39,17 @@
   }
   
   .contenedor div{
+    display: flex;
+    flex-direction: column;
     flex: 1;
     min-width: 0;
     margin: 1%;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
   }
   .contenedor div h1{
     flex-grow: 1;
@@ -50,7 +58,18 @@
 
     overflow-wrap: break-word;
   }
+  .contenedor div button{
 
+    margin: 10px;
+    padding: 10px;
+    background-color: #4dcfff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 200px;
+    min-height: 100px;
+    border: none;
+  }
   .pie {
     position: fixed;
     left: 0;
@@ -71,3 +90,60 @@
    margin-left: 20px;
    text-align: left;
   }
+
+  .imagen{
+    background-image: url(https://i0.wp.com/www.diariocolatino.com/wp-content/uploads/2018/04/2FIAES-proyecto-1.jpg?fit=1186%2C667&ssl=1);
+    background-size: cover;
+  }
+
+  .imagen2{
+    background-image: url(https://juanlievano.com/wp-content/uploads/2020/02/DSC_0400_opt.jpg);
+    background-size: cover;
+  }
+
+  .imagen3{
+    background-image: url(https://elsalvador.travel/system/wp-content/uploads/2024/08/sunsetpark-04.jpg);
+    background-size: cover;
+  }
+  #btn2{
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #4dcfff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 200px;
+    min-height: 100px;
+    border: none;
+  }
+
+  #btn3{
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #fc9fff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 200px;
+    min-height: 100px;
+    border: none;
+  }
+
+  #btn4{
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #b9ff63;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 200px;
+    min-height: 100px;
+    border: none;
+  }
+
+  
+
+
