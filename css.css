@@ -105,43 +105,45 @@
     background-image: url(https://elsalvador.travel/system/wp-content/uploads/2024/08/sunsetpark-04.jpg);
     background-size: cover;
   }
-  #btn2{
-
+ #btn2 {
     margin: 10px;
     padding: 10px;
-    background-color: #4dcfff;
+    background-color: rgba(4, 255, 0, 0.5); /* Azul con opacidad */
     color: white;
     font-size: 20px;
     font-weight: bold;
     min-width: 200px;
     min-height: 100px;
     border: none;
-  }
+}
 
-  #btn3{
-
+#btn3 {
     margin: 10px;
     padding: 10px;
-    background-color: #fc9fff;
+    background-color: rgba(255, 153, 0, 0.5); /* Rosa con opacidad */
     color: white;
     font-size: 20px;
     font-weight: bold;
     min-width: 200px;
     min-height: 100px;
     border: none;
-  }
+}
 
-  #btn4{
-
+#btn4 {
     margin: 10px;
     padding: 10px;
-    background-color: #b9ff63;
+    background-color: rgba(12, 0, 248, 0.5); /* Verde con opacidad */
     color: white;
     font-size: 20px;
     font-weight: bold;
     min-width: 200px;
     min-height: 100px;
     border: none;
+}
+
+.atras {
+  background-image: url("logo.png");
+  background-size: cover;
   }
 
   
