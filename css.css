@@ -27,6 +27,7 @@
 
   body{
     margin: 0;
+    padding-bottom: 70px;
   }
   .contenedor{
     display: flex;
@@ -159,5 +160,33 @@
 }
 
   
+#cuadroTexto {
+  display: none;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  color: #000000;
+}
 
+#cuadroTexto2 {
+  display: none;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  color: #000000;
+}
 
+#cuadroTexto3 {
+  display: none;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.oculto {
+  display: none;
+}
